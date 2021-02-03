@@ -20,14 +20,13 @@ main {
     overflow: auto;
 }
 
-footer {
-    background-color: rgb(99, 0, 0);
-    /* flex-shrink: 0; */
-}
-
 article {
     text-align: justify;
     background-color: darkblue;
     color: whitesmoke;
     padding: 0 1em 0 1em;
+}
+
+footer {
+    background-color: rgb(99, 0, 0);
 }
