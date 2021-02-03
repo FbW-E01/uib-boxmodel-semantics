@@ -1,0 +1,25 @@
+
+
+h1,
+h3 {
+  text-align: center;
+}
+
+
+#text-left {
+    float: left;
+    width: 65%;
+    overflow: hidden;
+    margin: 20px;
+    
+}
+
+
+
+#text-right {
+    overflow: hidden;
+
+}
+
+
+box
