@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic elements</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+        body {
+            font-family: 'Oswald', sans-serif;
+            width: 800px;
+            background-color: lightgray;
+            background-image: repeating-linear-gradient();
+        }
+
+        .h1-head {
+            text-align: center;
+        }
+
+        .wrapper1 {
+            width: 100%;
+
+        }
+
+        .textbox-left {
+            float: left;
+            width: 40%;
+            box-sizing: border-box;
+            /* display: inline-block; */
+            /* border: 5px dashed black; */
+            padding-right: 10%;
+        }
+
+        .textbox-right {
+            float: right;
+            width: 40%;
+            box-sizing: border-box;
+            /* display: inline-block; */
+            /* border: 5px dotted black; */
+            padding-left: 10%;
+        }
+
+        .clearfix {
+            clear: both;
+        }
+
+        main {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="./images/code-header.png" alt="code"; width="800">
+    </header>
+
+    <div class="h1-head">
+        <h1>How to learn coding</h1>
+    </div>
+
+    <hr>
+    <div class="wrapper1">
+        <div class="textbox-left">
+            <h2><u>Why typing clean code?</u></h2>
+            <p>Don't forget</p>
+            <ul>
+                <li>Avoid typos</li>
+                <li>Regard intendations</li>
+                <li>User editor's 'Format document'</li>
+            </ul>
+            <p><em>Maybe, check out <a href="https://getmimo.com/" target="_blank">GetMimo app</a></em></p>
+        </div>
+
+
+        <div class="textbox-right">
+            <h2><u>Which commands I have to know</u></h2>
+            <p>There is a <em>bunch of</em> so many commands in HTML and CSS you should know. But no worries: You'll
+                learning them by studying at the DCI or even try to code and to google for new commands. Read the
+                tutorial
+                on MDN, they're very helpful!</p>
+            <p><em>Here's the <a href="https://developer.mozilla.org/" target="_blank">link</a> to MDN</em></p>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+
+    <hr>
+    <main>
+        <div>
+            <h1 class="h1-head">Some useful tutorials</h1>
+        </div>
+        <div>
+            <h2><u>Block level elements</u></h2>
+        </div>
+        <div>
+            <p>What are block level elements and how to use them? Read the tutorial on <a
+                    href="https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements"
+                    target="-blank">MDN</a>
+            </p>
+        </div>
+        <div>
+            <h2><u>Inline elements</u></h2>
+        </div>
+        <div>
+            <p>There is a plenty of so many inline elements to structure and to design a web page! You should check-out
+                them
+                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements" target="_blank">on this MDN
+                    page.</a>
+            </p>
+        </div>
+        <hr>
+        <div>
+            <h2>
+                <u>Find out more</u>
+            </h2>
+        </div>
+        <div>
+            <p>Here are <em>some more</em> interesting webpages</p>
+        </div>
+        <div><a href="https://www.w3schools.com/" target="_blank">W3schools</a></div>
+        <div><a href="https://fonts.google.com/" target="_blank">Google Fonts</a></div>
+        <div><a href="https://github.com/" target="_blank">GitHub</a></div>
+    </main>
+
+</body>
+
+</html>
