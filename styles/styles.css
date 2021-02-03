@@ -1,0 +1,48 @@
+h1{
+    font-family: 'Yusei Magic', sans-serif;
+    margin:auto;
+    width: 50%;
+    border: 3px solid rgb(20, 0, 51);
+    padding: 10px;
+    background-color: aqua;
+    text-align: center;
+}
+h2{
+    font-family: 'Yusei Magic', sans-serif;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-decoration: underline overline;
+    text-align: center;
+}
+
+#wrapper {
+    width: 100%;
+    overflow: hidden; 
+}
+#first {
+    font-family: 'Yusei Magic', sans-serif;
+    width: 45%;
+    float:left;
+    padding-right: 5%; 
+
+
+}
+#second {
+    overflow: hidden; 
+    font-family: 'Yusei Magic', sans-serif;
+    width: 45%;
+    padding-left:5%;
+}
+#main_content{
+    font-family: 'Yusei Magic', sans-serif;
+}
+html{
+    background-color: rgb(233, 233, 233);
+}
+h3{
+    text-decoration: underline;
+}
+.extra_info{
+    border: 1px solid rgb(0, 0, 0);
+}
