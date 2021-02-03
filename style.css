@@ -1,0 +1,36 @@
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: none;
+  text-align: justify;
+}
+header {
+  background-image: url(/image/reference-imaged.png);
+  width: 100%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: none;
+}
+h1 {
+  font-size: 120%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: azure;
+}
+header {
+  background-color: greenyellow;
+}
+:hover header {
+  background-color: burlywood;
+  text-align: center;
+}
+:hover footer {
+  background-color: greenyellow;
+  border-color: greenyellow;
+  text-align: center;
+}
+ul {
+  border: groove;
+}
