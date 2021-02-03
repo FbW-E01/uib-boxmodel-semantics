@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+
+* {
+    font-family: 'Potta One', cursive;
+}
+
+body {
+    background-image: url("./image/pear-repeat-background.jpg");
+}
+
+nav {
+    background-color: rgb(140, 221, 133);
+    margin: 20px auto;
+    width: 30vw;
+    justify-content: center;
+    font-color: rgb(144, 144, 144);
+    border: 10px solid rgb(153, 124, 153);
+}
+
+h1, h2 {
+    background-color: rgb(140, 221, 133);
+    border: 10px solid rgb(153, 124, 153);
+    padding: 40px;
+    width: 60vw;
+    margin: 20px auto;
+    text-align: center;
+    
+}
+
+.firstParagraph {
+    background-color: rgb(140, 221, 133);
+    border: 10px solid rgb(153, 124, 153);
+    width: 40vw;
+    margin: 20px auto;
+    font-size: 15px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 10px solid rgb(153, 124, 153);
+
+}
+
+.widerParagraphs {
+    background-color: rgb(140, 221, 133);
+    border: 10px solid rgb(153, 124, 153);
+    width: 60vw;
+    margin: 20px auto;
+    font-size: 15px;
+}
+
+aside {
+    background-color: rgb(140, 221, 133);
+    border: 10px solid rgb(153, 124, 153); 
+    width: 40vw;
+    margin: 20px auto;
+    text-align: center;
+}
