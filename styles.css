@@ -1,0 +1,64 @@
+body {
+  font-family: "Dosis", sans-serif;
+  margin: 0;
+}
+
+.banner {
+  background-image: url(./image/22seeingyou1-superjumbo.jpg);
+  background-position: center;
+}
+
+.banner div {
+  height: 10rem;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+  color: #ffffff;
+  margin: 0;
+  padding: 3rem 2rem;
+}
+
+header span {
+  text-transform: uppercase;
+  color: #ee82ee;
+}
+
+main {
+  padding: 2rem;
+  background-color: #ff868c79;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+}
+
+.intro,
+.elements {
+  width: 45%;
+}
+
+.elements li {
+  list-style-type: "...  ";
+}
+
+h2 {
+  font-size: 1.75rem;
+  color: #00008b;
+  border: 0.25rem solid #00008b;
+  border-radius: 5px;
+  padding-left: 0.5rem;
+}
+
+.productions-title {
+  font-family: "JetBrains Mono", monospace;
+  color: #6a5acd;
+  background-color: #ffffe0;
+}
+
+footer {
+  padding: 2rem;
+  border-top: 0.5rem solid #00008b;
+  background-color: #d3d3d3;
+}
