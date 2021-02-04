@@ -1,0 +1,52 @@
+body {
+    /* background-image: url(./image/nebula.jpg); */
+    background-image: 100vh;
+    font-family: 'Tajawal', sans-serif;
+    margin: 10px;
+}
+
+hgroup {
+    text-align: center;
+}
+
+h1 {
+    font-size: 10em;
+}
+
+h3 { 
+    text-transform: uppercase;
+}
+
+summary {
+    width: 63vw;
+    margin: auto;
+}
+
+img {
+    width: 45vw;
+}
+.questions_wrapper {
+    float: left;
+    width: 45%;
+    text-align: justify;
+    margin-left: 20px;
+}
+
+figure {
+    float: right;
+    width: 45vw;
+    margin-right: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: left;
+}
+
