@@ -52,6 +52,10 @@ html {
   border-top: solid tomato 2px;
   margin-top: 300px;
 }
+#husen {
+  float: left;
+  padding-right: 8px;
+}
 
 #stopelstein {
   width: 480px;
