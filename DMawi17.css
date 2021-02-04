@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* define the background color */
+body {
+    background: linear-gradient(to right top, rgba(255, 145, 0, 0.398), rgba(67, 218, 37, 0.344));
+    background-repeat: no-repeat;
+}
+
+/* header including h1, h2 and span */
+header {
+    height: 25vh;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 20px 0px;
+    /* border: sandybrown 2px solid; */
+}
+span {
+    font-size: 1.25em;
+    color: rgba(102, 12, 12, 0.6);
+} 
+h2 {
+    margin: 10px;
+    padding: 0 30% 0 30%;
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+}
+h3 {
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+}
+
+/* main includes article on the left and aside on the right */
+main {
+    margin-bottom: 80px;
+    padding: 10px;
+    color: rgba(2, 25, 36, 0.686);
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* the article element is on the left */
+article {
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+.what {
+    margin: 40px 10px;
+}
+.why {
+    margin: 30px;
+}
+#picture {
+    width: 35%;
+    height: 450px;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+
+/* the aside element is on the right containing the list*/
+aside {
+    width: 25%;
+    float: right;
+}
+
+
+/* links to other pages */
+footer {
+    margin: 5px;
+    padding: 10px 15px;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.left-footer {
+width: 50%;
+}
+.right-footer {
+width: 35%;
+}
+a {
+    color: rgb(36, 87, 0);
+}
+a:visited {
+    color: rgb(27, 114, 5);
+}
