@@ -97,7 +97,7 @@ footer {
     }
   }
 
-  @media screen and (min-width: 766px) {
+  @media screen and (min-width: 800px) and (max-width: 1355px)  {
       
     h1 {
         font-size: 5em;
