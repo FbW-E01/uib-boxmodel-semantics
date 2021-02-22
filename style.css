@@ -1,3 +1,5 @@
+
+
 body {
 color: rgb(77, 77, 77);
     font-family: 'Sriracha', cursive;
@@ -6,7 +8,8 @@ color: rgb(77, 77, 77);
     border-radius: 10%;
     background-color: rgb(34, 37, 77);
 
-}
+
+    }
 h1 {
 color: rgb(255, 255, 255);
     margin: auto;
@@ -17,7 +20,7 @@ color: rgb(255, 255, 255);
 .wrapper{
 
 border: 0.1px solid black;
-border-radius: 10%;
+border-radius: 10px;
 display:inline-block;
 background-color: rgba(236, 236, 236, 0.89)
 }
@@ -53,3 +56,20 @@ float: right;
 background: rgb(189, 189, 189);
 
 }
+
+
+@media (max-width: 576px) {
+    body { background: pink; }
+    .container1 {
+        box-sizing: border-box;
+        width:100%;
+        padding: 20px;
+        }
+        
+        .container2 {
+        box-sizing: border-box;
+        width: 100%;
+        margin-left: auto;
+        padding: 20px;
+        }
+    }
