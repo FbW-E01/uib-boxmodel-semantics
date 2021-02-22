@@ -50,3 +50,48 @@ footer {
     text-align: left;
 }
 
+@media screen and (max-width: 600px) {
+    h1 {
+      font-size: 1.8em;
+      text-align: left;
+      padding: 2px; 
+    }
+    h3 {
+        font-size: 1em;
+        text-align: left;
+    }
+    h3 a {
+        display: block;
+    }
+    summary {
+        margin: initial;
+        text-align: justify;
+        padding: 5px;
+
+    }
+    h2 {
+        font-size: 1.6em;
+    }
+    .questions_wrapper {
+        width: 70%;
+        display: block;
+        text-align: justify;
+        margin: initial;
+        padding: 5px;
+    }
+    figure {
+        float: initial;
+        margin-left: 4px;
+    }
+    img {
+        width: 70vw;
+        margin: initial;
+    }
+    figcaption {
+        width: 70vw;
+        text-align: justify;
+    }
+    .questions_wrapper ul {
+        padding-left: initial;
+    }
+  }
