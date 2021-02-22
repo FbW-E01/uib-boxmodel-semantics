@@ -53,3 +53,51 @@ h3 {
 .extra_info {
     border: 1px solid rgb(0, 0, 0);
 }
+
+
+
+@media (max-width:1000px){
+        html {
+            background-color: aquamarine;
+        }
+        #wrapper{
+            
+            font-weight: bold;
+            font-size: 30px;
+        }
+        hr{
+            border: 1px solid black
+        }
+
+        a{
+            border:black solid 2px;
+            background-color: lightgrey;
+            padding: 5px 10px 5px 10px;
+        }
+}
+
+@media (max-width:500px){
+    html {
+        background-color: magenta;
+    }
+    #wrapper{
+        
+        font-weight: bold;
+        font-size: 10px;
+    }
+    hr{
+        border: 1px solid black
+    }
+
+    a{
+        border:black solid 2px;
+        background-color: lightgrey;
+        padding: 5px 10px 5px 10px;
+    }
+    #main_content{
+        font-size: 10px;
+    }
+    h1{
+        font-size: 20px;
+    }
+}
