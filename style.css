@@ -1,4 +1,9 @@
 body {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
@@ -6,38 +11,26 @@ body {
     body {
         background: pink;
     }
-}
-
-@media (min-width: 767.98px) {
-    body {
-        background: purple
+    .articleblock,
+    .section1,
+    .section2,
+    .section3 {
+        width: 100%;
     }
-    ;
 }
 
-// Medium devices (tablets, less than 992px)
-@media (max-width: 991.98px) {
-    ...
-}
-
-// Large devices (desktops, less than 1200px)
-@media (max-width: 1199.98px) {
-    ...
-}
-
-// X-Large devices (large desktops, less than 1400px)
-@media (max-width: 1399.98px) {
-    ...
-}
-
-// XX-Large devices (larger desktops)
-// No media query since the xxl breakpoint has no upper bound on its width
 .headerblock {
-    padding: 60px;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    width: 100%;
     text-align: center;
     background: #000000;
     color: white;
-    font-size: 50px;
+}
+
+.logo {
+    image-rendering: inherit;
 }
 
 .quote {
@@ -59,9 +52,17 @@ body {
     text-align: justify;
 }
 
+#articleimg1 {
+    width: 75%;
+}
+
 .section2 {
     width: 50%;
     margin: 0 auto;
+}
+
+.section2 img {
+    width: 75%;
 }
 
 .section2 p {
@@ -71,10 +72,18 @@ body {
 .section3 {
     width: 50%;
     margin: 0 auto;
+    display: block;
+    text-align: center;
 }
 
 .section3 p {
     text-align: justify;
+}
+
+#articleimg3 {
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    width: 75%;
 }
 
 h1 {
@@ -84,5 +93,6 @@ h1 {
 
 #articleimg4 {
     margin-left: 0 auto;
-    margin-right: 0 auto
+    margin-right: 0 auto;
+    width: 75%;
 }
