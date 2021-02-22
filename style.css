@@ -50,7 +50,7 @@ footer {
     text-align: left;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 765px) {
     h1 {
       font-size: 1.8em;
       text-align: left;
@@ -65,6 +65,7 @@ footer {
     }
     summary {
         margin: initial;
+        width: 85vw;
         text-align: justify;
         padding: 5px;
 
@@ -73,7 +74,7 @@ footer {
         font-size: 1.6em;
     }
     .questions_wrapper {
-        width: 70%;
+        width: 85vw;
         display: block;
         text-align: justify;
         margin: initial;
@@ -84,14 +85,41 @@ footer {
         margin-left: 4px;
     }
     img {
-        width: 70vw;
+        width: 85vw;
         margin: initial;
     }
     figcaption {
-        width: 70vw;
+        width: 85vw;
         text-align: justify;
     }
     .questions_wrapper ul {
         padding-left: initial;
+    }
+  }
+
+  @media screen and (min-width: 766px) {
+      
+    h1 {
+        font-size: 5em;
+        padding-top: 3px;
+    } 
+    summary {
+        width: 85vw;
+        text-align: justify;
+    }
+    .questions_wrapper {
+        width: 40%;
+        display:inline-block;
+        padding: 10px;
+    }
+    figure {
+        width: 40%;
+        display: inline-block;
+        float: initial;
+        padding-left: 40px;
+    }
+    img {
+        margin: initial;
+        width: 40vw;
     }
   }
