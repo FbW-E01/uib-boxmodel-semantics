@@ -20,15 +20,37 @@ text-align: center;
      width: 100px;
      margin: auto;
      text-align: center;
-     box-shadow: darkblue 60px;
 
  }
 main {
      justify-content: center;
      background-color: cornsilk;
-     font-family: fantasy;
+     font-family: Georgia, 'Times New Roman', Times, serif;
  }
  h2{
        text-align: center;
 
  }
+
+
+@media (max-width: 500px) {
+body {
+    background-image: url(/image/pexels-martin-péchy-1255149.jpg);
+    font-family: fantasy;
+}
+
+
+.top {
+    display: none;
+  
+}
+.div2 {
+    width: 100%;
+    display: block;
+    font-family: fantasy;
+}
+header, footer {
+    border-width: 0;
+    border: 2px solid pink;
+}
+}
