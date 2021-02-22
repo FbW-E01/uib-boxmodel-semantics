@@ -1,4 +1,5 @@
-html {
+body {
+  background-color: rgb(173, 247, 173);
 }
 
 .header {
@@ -60,7 +61,6 @@ html {
 #stopelstein {
   width: 480px;
   height: 340px;
-
   margin-left: 400px;
 }
 #image {
@@ -68,3 +68,89 @@ html {
   height: 500px;
   object-fit: cover;
 }
+/* insert @media query here for responsiveness*/
+
+@media (max-width: 800px) {
+  body {
+    background: rgb(172, 180, 219);
+  }
+
+  .header {
+    height: 30vh;
+    width: 100vw;
+  }
+  .header-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .bigheading {
+    width: 100%;
+    display: block;
+    color: blueviolet;
+    text-align: left;
+    margin-left: 0;
+  }
+  #hr_line {
+    border: 0;
+    width: 0;
+  }
+  .whatzit {
+    display: block;
+    color: salmon;
+  }
+  .terrace {
+    border-right: solid 0px blue;
+    width: 100%;
+    display: block;
+  }
+  .universal {
+    width: 100%;
+    display: block;
+  }
+
+  .multilevel {
+    color: rgb(33, 87, 66);
+    width: 100%;
+    display: block;
+    text-align: left;
+    text-underline-position: below;
+    font-weight: bolder;
+  }
+  .perspective {
+    border-right: 0px;
+    width: 100%;
+    display: block;
+  }
+  .point_place {
+    width: 100%;
+    display: block;
+  }
+  .more_info {
+    width: 100%;
+    border-top: solid tomato 0px;
+    display: block;
+    margin-left: 0;
+  }
+  #husen {
+    display: block;
+    padding-right: 8px;
+    width: 100%;
+  }
+
+  #stopelstein {
+    width: 100vw;
+    height: 20%;
+    display: block;
+    margin-left: 0;
+  }
+  #image {
+    width: 100%;
+    height: 20%;
+    object-fit: cover;
+    display: block;
+    margin-left: 0px;
+  }
+}
+/*@media query end here */
