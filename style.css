@@ -32,3 +32,29 @@ h2 {
         text-align: left;
     }
 }
+
+@media (min-width: 1600px) {
+    main {
+        vertical-align: middle;
+    }
+    
+    div.parent {
+        display: inline-block;
+        float: left;
+        width: 50%;
+    }
+    
+    div.left, div.right {
+        float: left;
+        display:inline-block;
+        text-align: justify;
+    }
+    
+    section {
+        padding-left: 4%;
+        display: inline-block;
+        width: 50%;
+        box-sizing: border-box;
+        float: right;
+    }
+}
