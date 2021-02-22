@@ -2,7 +2,8 @@ body {
     margin: 0;
 }
 
-.container {background-color: gray;
+.container {
+    background-color: gray;
     display: flex;
     flex-direction: column;
     width: 100vw;
@@ -17,6 +18,7 @@ main {
     background-color: green;
     flex-grow: 1;
     display: flex;
+    flex-direction: row;
     overflow: auto;
 }
 
@@ -29,4 +31,10 @@ article {
 
 footer {
     background-color: rgb(99, 0, 0);
+}
+
+@media (max-width: 500px) {
+    main {
+        flex-direction: column;
+    }
 }
